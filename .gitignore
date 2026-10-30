@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Large Model Weights (>100MB)
+*.pth
+*.pt
+*.bin
+*.ckpt
+checkpoints/
+training_50epochs_results/checkpoints/
+ablation_results/**/checkpoints/
+preliminary_results/**/checkpoints/
+
+# Datasets & Large Archives (>100MB)
+LOLdataset/
+LOLdataset.zip
+*.zip
+*.tar.gz
+*.7z
+
+# Temporary / Scratch Pages & Builds
+page_*.png
+test_out.pdf
+paper_for_pdf.html
+pdf_pages_clean/
+pdf_pages_new/
+pdf_pages_old/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pytorch-gradual-warmup-lr/build/
+pytorch-gradual-warmup-lr/dist/
+pytorch-gradual-warmup-lr/*.egg-info/
+
+# System / IDE
+.vscode/
+.idea/
+*.swp
